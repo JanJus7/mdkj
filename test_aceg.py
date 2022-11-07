@@ -1,4 +1,4 @@
-def przywitanie():
+def test_przywitanie():
     print("Hej!")
 
-przywitanie()
+test_przywitanie()
