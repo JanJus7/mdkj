@@ -1,5 +1,9 @@
-n = int(input("POdaj wysokość choinki n: "))
-for i in range(1, n + 1):
-    print(" " * (n - i) + "*" * (2 * i - 1))
-print(" " * (n - 2) + "||")
-print(" " * (n - 2) + "||")
+print("Żeby znaleźć NWD -> ")
+a = int(input("Podaj większą liczbę: "))
+b = int(input("Podaj mniejszą liczbe: "))
+while a != b:
+    if a > b:
+        a = a - b
+    else:
+        b = b - a
+print(a)
