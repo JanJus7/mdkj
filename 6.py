@@ -1,5 +1,3 @@
-def przywitanie():
-    print("Hej!")
-
-
-przywitanie()
+def suma(a, b):
+    c = a + b
+    return c
